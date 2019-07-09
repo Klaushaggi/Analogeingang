@@ -1,3 +1,10 @@
+/*
+Dem Analogeingang des NodeMcu ist ein Spannungswandler von 220k und 100k
+vorgeschaltet. Damit die 4,23V des 18650 gemessen werden können, wird
+noch ein 110k vorgeschaltet. Der Analogeingang kann bis 1V messen, was
+1024 Bit entspricht.
+*/
+
 #include <Arduino.h>
 
 double inputVal  = 0;
