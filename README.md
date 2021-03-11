@@ -1,0 +1,2 @@
+# Analogeingang
+Test NodeMCU-Analogeingang
